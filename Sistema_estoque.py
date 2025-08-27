@@ -5,7 +5,7 @@ import os
 from colorama import Fore, init
 import json
 
-# Para garantir que o colorama funcione corretamente
+# Para garantir que as cores funcionem corretamente
 init(autoreset=True)
 
 arquivo_estoque = 'estoque.json'
@@ -155,6 +155,7 @@ while True:
         visualizar_estoque()
     else:
         print(f'{Fore.RED}Opção inválida, tente novamente.')
+
 
 
     pausar()
