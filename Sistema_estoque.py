@@ -156,6 +156,5 @@ while True:
     else:
         print(f'{Fore.RED}Opção inválida, tente novamente.')
 
-
-
     pausar()
+
